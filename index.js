@@ -76,9 +76,10 @@ function hiddenLetters() {
 function newGame(bool) {
   
   //hides win/loose messages
-  document.getElementById("hmWinner").style.visibility = "hidden";
-  document.getElementById("hmLooser").style.visibility = "hidden";
-  document.getElementById("hmFinished").style.visibility = "hidden";
+  
+  if (document.getElementById("hmWinner").style.visibility != "hidden") {document.getElementById("hmWinner").style.visibility = "hidden";}
+  if (document.getElementById("hmLooser").style.visibility != "hidden")document.getElementById("hmLooser").style.visibility = "hidden";
+  if (document.getElementById("hmFinished").style.visibility != "hidden") document.getElementById("hmFinished").style.visibility = "hidden";
 
   //deletes elements created in hiddenLetters function
   for (let i = 0; i < phrases[phrasesCounter].length - 1; i++) {
