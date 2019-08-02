@@ -77,9 +77,9 @@ function newGame(bool) {
   
   //hides win/loose messages
   
-  document.getElementById("hmWinner").style.display = "none";
-  document.getElementById("hmLooser").style.display = "none";
-  document.getElementById("hmFinished").style.display = "none";
+  $("#hmWinner").css("display", "none");
+  $("#hmLooser").css("display", "none");
+  $("#hmFinished").css("display", "none");
 
   //deletes elements created in hiddenLetters function
   for (let i = 0; i < phrases[phrasesCounter].length - 1; i++) {
