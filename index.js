@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 // array with phrases
 
 let rawPhrases = ["hire paul", "paul is great", "  and he writes really good code  ", "  plus he has a puppy", " you don't hate puppies? ", "do you?"];
@@ -173,3 +175,5 @@ function letterClick(clickedLetter) {
 }
 
 newGame(false);
+
+})
