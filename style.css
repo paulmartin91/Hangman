@@ -243,7 +243,6 @@ body {
     z-index: 5;
     visibility: hidden;
     align-items: center;
-    visibility: visible;
 }
 
 #hmLooser {
@@ -257,7 +256,6 @@ body {
     visibility: hidden;
     justify-content: center;
     align-items: center;
-    visibility: visible;
 }
 
 #hmFinished {
@@ -271,7 +269,6 @@ body {
     visibility: hidden;
     justify-content: center;
     align-items: center;
-    visibility: visible;
 }
 
 #newGame {
