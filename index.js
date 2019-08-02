@@ -1,4 +1,5 @@
-$(document).ready(function(){
+$(document).ready(function(){newGame(false);})
+
 
 // array with phrases
 
@@ -174,6 +175,3 @@ function letterClick(clickedLetter) {
   }
 }
 
-newGame(false);
-
-})
