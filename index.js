@@ -56,6 +56,7 @@ function hiddenLetters() {
     if (phrases[phrasesCounter][i] == " ") {
       para.style.visibility = "hidden";
     }
+    //
     para.style.fontSize = "0em";
     
        if (phrases[phrasesCounter][i] == "'" || phrases[phrasesCounter][i] == "?") {
