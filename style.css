@@ -49,6 +49,7 @@ body {
     height: 200px;
     background: black;
     position: absolute;
+    visibility: visible;
 }
 
 #hmStrut2 {
@@ -59,6 +60,7 @@ body {
     background: black;
     position: absolute;
     transform: rotate(135deg);
+    visibility: visible;
 }
 
 #hmStrut3 {
@@ -68,6 +70,7 @@ body {
     height: 10px;
     background: black;
     position: absolute;
+    visibility: visible;
 }
 
 #hmStrut4 {
@@ -78,6 +81,7 @@ body {
     background: black;
     position: absolute;
     transform: rotate(45deg);
+    visibility: visible;
 }
 
 #hmRope {
@@ -87,6 +91,7 @@ body {
     height: 60px;
     background: black;
     position: absolute;
+    visibility: visible;
 }
 
 #hmHead {
@@ -97,6 +102,7 @@ body {
     border: 3px solid black;
     position: absolute;
     border-radius: 50%;
+    visibility: visible;
 }
 
 #hmBody {
@@ -106,6 +112,7 @@ body {
     height: 60px;
     background: black;
     position: absolute;
+    visibility: visible;
 
 }
 
@@ -117,6 +124,7 @@ body {
     transform: rotate(25deg);
     background: black;
     position: absolute;
+    visibility: visible;
 }
 
 #hmArmR {
@@ -127,7 +135,7 @@ body {
     transform: rotate(335deg);
     background: black;
     position: absolute;
-
+    visibility: visible;
 }
 
 
@@ -140,7 +148,7 @@ body {
     transform: rotate(335deg);
     background: black;
     position: absolute;
-
+    visibility: visible;
 }
 
 #hmLegL {
@@ -151,6 +159,7 @@ body {
     transform: rotate(25deg);
     background: black;
     position: absolute;
+    visibility: visible;
 }
 
 
