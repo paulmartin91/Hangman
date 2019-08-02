@@ -77,9 +77,9 @@ function newGame(bool) {
   
   //hides win/loose messages
   
-  if (document.getElementById("hmWinner").style.visibility != "hidden") {document.getElementById("hmWinner").style.visibility = "hidden";}
-  if (document.getElementById("hmLooser").style.visibility != "hidden")document.getElementById("hmLooser").style.visibility = "hidden";
-  if (document.getElementById("hmFinished").style.visibility != "hidden") document.getElementById("hmFinished").style.visibility = "hidden";
+  document.getElementById("hmWinner").style.display = "none";
+  document.getElementById("hmLooser").style.display = "none";
+  document.getElementById("hmFinished").style.display = "none";
 
   //deletes elements created in hiddenLetters function
   for (let i = 0; i < phrases[phrasesCounter].length - 1; i++) {
@@ -147,10 +147,10 @@ function letterClick(clickedLetter) {
         winCount == phrases[phrasesCounter][phrases[phrasesCounter].length - 1]
       ) {
           if (phrasesCounter == phrases.length-1){
-  document.getElementById("hmFinished").style.visibility = "visible";
+  document.getElementById("hmFinished").style.display = "block";
   } else {
   
-        document.getElementById("hmWinner").style.visibility = "visible";
+        document.getElementById("hmWinner").style.display = "block";
   }
       }
     } else {
@@ -167,7 +167,7 @@ function letterClick(clickedLetter) {
     looseCount++;
     //if all hangman parts are showing, loose message shows
     if (looseCount == hangmanParts.length) {
-      document.getElementById("hmLooser").style.visibility = "visible";
+      document.getElementById("hmLooser").style.display = "block";
     }
   }
 }
